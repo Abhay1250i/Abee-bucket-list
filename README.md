@@ -1,4 +1,4 @@
-# 🪣 Ani Bucket List (Friends Edition)
+#  Abee Bucket List
 
 A visual bookmark manager that replaces your Chrome New Tab page with a stunning, high-performance, glassmorphic dashboard. Organize your links using interactive Kanban boards, customize your environment with a live wallpaper engine, and manage your daily bookmarks in style.
 
