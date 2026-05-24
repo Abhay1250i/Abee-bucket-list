@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "Ani Bucket List",
+  "version": "1.1.0",
+  "description": "A visual bookmark manager that replaces your New Tab page.",
+  "permissions": ["storage", "tabs", "activeTab", "commands", "unlimitedStorage"],
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "quick-save-bookmark": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "mac": "MacCtrl+Shift+Y"
+      },
+      "description": "Quick-save the current tab to your Inbox board"
+    }
+  },
+  "action": {
+    "default_title": "Ani Bucket List",
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
+}
